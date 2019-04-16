@@ -5,86 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Investment group</title>
-    <!--bootstrap styles init-->
-    <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="/css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <!--fonts google-->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:400,500&amp;subset=cyrillic" rel="stylesheet">
     <!--stylesheet-->
     <link rel="stylesheet" href="/css/style.min.css">
 </head>
 <body>
-    <div class="top-section container">
-        <span>Наши кейсы</span>
+    <div class="top-section">
+        <h1>Наши кейсы</h1>
         <!--здесь 1я карусель, пока что пример карточки-->
-        <div class="carousel row">
-            <img class="col" src="#" alt="img 1">
-            <div class="col">
-                <span>Готовое решение с доходом</span>
-                <span>874 000 руб/мес</span>
-                <span>Результаты:</span>
+        <div class="carousel">
+            <img src="/img/buildings/1.jpg" alt="img 1">
+            <div>
+                <span class="fancy small">Готовое решение с доходом</span>
+                <span class="fancy big">874 000 <span class="small">руб/мес</span></span>
+                <span class="simple">Результаты:</span>
                 <p>
-                    <b>Инвестиции:</b> 64 000 000 рублей (~140 000 рублей за м2).
-                    <b>Арендный доход:</b> 874 000 руб/мес с ежегодной индексацией 7%.
-                    ROI – 16,4%, без учета роста стоимости самого помещения
+                    <b>Инвестиции:</b> 64 000 000 рублей (~140 000 рублей за м2).<br>
+                    <b>Арендный доход:</b> 874 000 руб/мес с ежегодной индексацией 7%.<br>
+                    ROI – 16,4%, без учета роста стоимости самого помещения<br>
                     ROI ~46%, с учетом роста стоимости самого помещения 
                 </p>
-                <span>Что сделано:</span>
+                <span class="simple">Что сделано:</span>
                 <p>
                     При оценке количества коммерческих помещений в проекте будущего комплекса ЛСР и планируемой инфраструктуры района поняли, что есть недостаток продуктовых магазинов – всего 2 небольших магазина на 15 000 жителей.
                 </p>
                 <!--здесь располагается худ карусели, скроллбар и навигация-->
             </div>
         </div>
+        <span id="cases-text">Кейсы</span>
         <!--конец 1й карусели-->
-        <span>Кейсы</span> <!--decoration text-->
-        <div class="about row">
-            <span>Финансовая выгода от актива</span>
-            <div class="col">
-                <span>Доходность</span>
-                <p>
-                    Объекты с доходностью от 12% годовых. (аренда от 100 000 рублей в месяц).
-                </p>
+        <div class="about">
+            <h2>Финансовая выгода от актива</h2>
+            <div>
+                <div>
+                    <span>Доходность</span>
+                    <p>
+                        Объекты с доходностью от 12% годовых. (аренда от 100 000 рублей в месяц).
+                    </p>
+                </div>
+                <div>
+                    <span>Окупаемость</span>
+                    <p>
+                        Каждому потенциальному покупателю предоставляется плановый расчет доходности и окупаемости объекта, который покупатель сможет при необходимости использовать для сравнения с другими активами.
+                    </p>
+                </div>
+                <div>
+                    <span>Рост стоимости актива</span>
+                    <p>
+                        Объекты, купленные на этапе стройки, возрастают в цене к моменту сдачи в среднем на 30 %.
+                    </p>
+                </div>
+                <div>
+                    <span>Ликвидность</span>
+                    <p>
+                        Каждому потенциальному покупателю предоставляется плановый расчет доходности и окупаемости объекта, который покупатель сможет при необходимости использовать для сравнения с другими активами.
+                    </p>
+                </div>
             </div>
-            <div class="col">
-                <span>Окупаемость</span>
-                <p>
-                    Каждому потенциальному покупателю предоставляется плановый расчет доходности и окупаемости объекта, который покупатель сможет при необходимости использовать для сравнения с другими активами.
-                </p>
-            </div>
-            <div class="col">
-                <span>Рост стоимости актива</span>
-                <p>
-                    Объекты, купленные на этапе стройки, возрастают в цене к моменту сдачи в среднем на 30 %.
-                </p>
-            </div>
-            <div class="col">
-                <span>Ликвидность</span>
-                <p>
-                    Каждому потенциальному покупателю предоставляется плановый расчет доходности и окупаемости объекта, который покупатель сможет при необходимости использовать для сравнения с другими активами.
-                </p>
-            </div>
-    </div>
-    <div class="bot-section container">
+        </div>
+    <div class="bot-section">
         <!--Начало опросника-регистрации-->
-        <div class="regform row">
-            <form class="col" action="">
+        <div class="regform">
+            <form action="">
                 <!--Вставить прогрессбар и инпуты, рассмотерть готовые варианты-->
             </form>
-            <div class="col">
+            <div>
                 <span>Подбор лучших вариантов</span>
                 <p>
                     Заполните форму из 4 вопроссов,
-                    и мы подберем 3 самых перспективных  варианта под ваши требования в течение 15 минут.
+                    и мы подберем 3 самых перспективных варианта под ваши требования в течение 15 минут.
                 </p>
             </div>
         </div>
         <!--Конец опросника-регистрации-->
     </div>
-<!--bootstrap scripts init-->
-<script src="/js/bootstrap.bundle.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
 <!--main js-->   
 <script src="/js/scripts.min.js"></script> 
 </body>
